@@ -25,11 +25,15 @@ header {
     text-align: center;
 }
 
-img {
+header > img {
     width: 200px;
     height: 200px;
     display:inline-block;
     margin: 2px;
+}
+
+img{
+    width: 300px;
 }
 
 nav {
@@ -56,6 +60,10 @@ main{
     background-color: var(--lightteal);
     border-style: solid;
     border-radius: 3px;
+    background-image: linear-gradient(
+        rgba(112, 212, 243, 0.3) 0%,
+        rgba(9, 58, 70, 0.6) 100%
+    );
 }
 
 .categories {
