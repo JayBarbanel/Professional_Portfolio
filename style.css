@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     line-height: 1.3px;
     background-color: var(--lightolive);
+
 }
 
 :root {
@@ -16,11 +17,11 @@ header {
     justify-content: space-between;
     padding: 2%;
     background-color: var(--lightolive);
-    color: var(--darkblue);
+    color: var(--Scarlet);
     margin: 5px;
     border-style: solid;
     border-radius: 1%;
-    border-color: var(--lightteal);
+    border-color: var(--Scarlet);
     text-align: center;
 }
 
@@ -36,10 +37,7 @@ nav {
     padding: 2%;
     background-color: var(--lightolive);
     margin: 2px;
-    text-align:center;
-    border-style: solid;
-    border-radius: 1%;
-    border-color: var(--lightteal);
+    text-align:left;
 }
 
 nav a {
@@ -54,36 +52,24 @@ nav a:hover {
     color:var(--lightolive);
 }
 
-h2{
-    color: var(--darkblue)
+main{
+    background-color: var(--lightteal);
+    border-style: solid;
+    border-radius: 3px;
 }
 
 .categories {
     display: flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     flex: 1;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
+  }  
 
-  
-  #work {
-    padding: 50px;
-    height: 200px;
-    width: 1000px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--lightolive);
-    color:var(--darkblue);
-    border-style: solid;
-    border-radius: 5%;
-    border-color: var(--lightteal);
-    margin: 5px;
-  }
-
-  #contact-me {
-    padding: 50px;
+  #about-me {
+    padding: 25px;
     height: 200px;
     width: 1000px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -91,7 +77,48 @@ h2{
     color:var(--darkblue);
     border-style: solid;
     border-radius: 5% 5%;
-    border-color: var(--lightteal)
+    border-color: var(--darkblue);
+    color:var(--Scarlet);
+  }
+
+  #work {
+    padding: 25px;
+    height: 200px;
+    width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--lightolive);
+    color:var(--darkblue);
+    border-style: solid;
+    border-radius: 5%;
+    border-color: var(--darkblue);
+    margin: 5px;
+    color:var(--Scarlet);
+  }
+
+  #contact-me {
+    padding: 25px;
+    height: 200px;
+    width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--lightolive);
+    color:var(--darkblue);
+    border-style: solid;
+    border-radius: 5% 5%;
+    border-color: var(--darkblue);
+    color:var(--Scarlet);
+  }
+
+  #resume {
+    padding: 25px;
+    height: 200px;
+    width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--lightolive);
+    color:var(--darkblue);
+    border-style: solid;
+    border-radius: 5% 5%;
+    border-color: var(--darkblue);
+    color: var(--Scarlet);
   }
 
 #work:hover {
@@ -104,12 +131,25 @@ h2{
     color:var(--lightolive);
 }
 
+#about-me:hover {
+    background-color: var(--Scarlet);
+    color:var(--lightolive);
+}
 
-    .float-left {
+#resume:hover {
+    background-color: var(--Scarlet);
+    color:var(--lightolive);
+}
+
+.float-left {
         float: left;
         margin-right: 25px;
-    }
+}
 
-  img2{
-      width: 300%;
-  }
+footer{
+    text-align: center;
+    color: var(--Scarlet);
+    border: solid;
+    border-color: var(--darkblue);
+    background-color: var(--lightolive);
+}
