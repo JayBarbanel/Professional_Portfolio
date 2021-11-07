@@ -34,6 +34,7 @@ header > img {
 
 img{
     width: 300px;
+    border-radius: 10px;
 }
 
 nav {
@@ -59,7 +60,8 @@ nav a:hover {
 main{
     background-color: var(--lightteal);
     border-style: solid;
-    border-radius: 3px;
+    border-radius: 10px;
+    border-color: var(--Scarlet);
     background-image: linear-gradient(
         rgba(112, 212, 243, 0.3) 0%,
         rgba(9, 58, 70, 0.6) 100%
@@ -84,10 +86,11 @@ main{
     background-color: var(--lightolive);
     color:var(--darkblue);
     border-style: solid;
-    border-radius: 5% 5%;
+    border-radius: 10%;
     border-color: var(--darkblue);
     color:var(--Scarlet);
   }
+  
 
   #work {
     padding: 25px;
