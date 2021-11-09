@@ -34,7 +34,7 @@ header > img {
 
 img{
     width: 300px;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 nav {
@@ -69,8 +69,6 @@ main{
 }
 
 .categories {
-    display: flex;
-    flex-direction:column-reverse;
     flex: 1;
     padding: 50px;
     display: flex;
@@ -79,28 +77,30 @@ main{
   }  
 
   #about-me {
+    display: block;
     padding: 25px;
     height: 200px;
-    width: 1000px;
+    width: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--lightolive);
     color:var(--darkblue);
     border-style: solid;
-    border-radius: 10%;
+    border-radius: 60px;
     border-color: var(--darkblue);
     color:var(--Scarlet);
+    line-height: normal;
   }
   
 
   #work {
     padding: 25px;
     height: 200px;
-    width: 1000px;
+    width: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--lightolive);
     color:var(--darkblue);
     border-style: solid;
-    border-radius: 5%;
+    border-radius: 60px;
     border-color: var(--darkblue);
     margin: 5px;
     color:var(--Scarlet);
@@ -109,12 +109,12 @@ main{
   #contact-me {
     padding: 25px;
     height: 200px;
-    width: 1000px;
+    width: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--lightolive);
     color:var(--darkblue);
     border-style: solid;
-    border-radius: 5% 5%;
+    border-radius: 60px;
     border-color: var(--darkblue);
     color:var(--Scarlet);
   }
@@ -122,12 +122,12 @@ main{
   #resume {
     padding: 25px;
     height: 200px;
-    width: 1000px;
+    width: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--lightolive);
     color:var(--darkblue);
     border-style: solid;
-    border-radius: 5% 5%;
+    border-radius: 60px;
     border-color: var(--darkblue);
     color: var(--Scarlet);
   }
@@ -135,22 +135,39 @@ main{
 #work:hover {
     background-color: var(--Scarlet);
     color:var(--lightolive);
+    background-image: linear-gradient(
+        rgba(243, 31, 31, 0.3) 0%,
+        rgba(29, 4, 4, 0.6) 100%
+    );
 }
 
 #contact-me:hover {
     background-color: var(--Scarlet);
     color:var(--lightolive);
+    background-image: linear-gradient(
+        rgba(243, 31, 31, 0.3) 0%,
+        rgba(29, 4, 4, 0.6) 100%
+    );
 }
 
 #about-me:hover {
     background-color: var(--Scarlet);
     color:var(--lightolive);
+    background-image: linear-gradient(
+        rgba(243, 31, 31, 0.3) 0%,
+        rgba(29, 4, 4, 0.6) 100%
+    );
 }
 
 #resume:hover {
     background-color: var(--Scarlet);
     color:var(--lightolive);
+    background-image: linear-gradient(
+        rgba(243, 31, 31, 0.3) 0%,
+        rgba(29, 4, 4, 0.6) 100%
+    );
 }
+
 
 .float-left {
         float: left;
@@ -164,3 +181,10 @@ footer{
     border-color: var(--darkblue);
     background-color: var(--lightolive);
 }
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
