@@ -7,65 +7,54 @@ body {
 }
 
 :root {
-    --Scarlet: #0f3b04;
+    --black: #000000;
     --lightolive: white;
     --lightteal: white;
-    --darkblue: rgb(0, 0, 0);
+    --darkblue: rgb(255, 255, 255);
 }
 
 header {
     justify-content: space-between;
     padding: 2%;
-    background-color: var(--lightolive);
-    color: var(--Scarlet);
-    margin: 5px;
-    border-style: solid;
-    border-radius: 60px;
-    border-color: var(--Scarlet);
-    text-align: center;
-}
-
-header > img {
     width: 200px;
-    height: 200px;
-    display:inline-block;
-    margin: 2px;
+    color: var(--black);
+    margin: 10px;
+    border-style: solid;
+    border-color: var(--black);
+    text-align: left;
+    font-size: 15px;
+    line-height: normal;
+    position: relative;
+    left: 2%;
 }
-
 
 img{
-    width: 250px;
-    border-radius: 40px;
+    width: 200px;
+    height: 200px;
     margin: 25px;
 }
 
 nav {
     justify-content: space-between;
     padding: 2%;
-    background-color: var(--lightolive);
-    margin: 2px;
     text-align:center;
+    color:var(--black);
+    position: absolute;
+    right: 2%;
 }
 
 nav a {
-    color: var(--darkblue);
+    color: var(--Scarlet);
     padding: 25px 25px;
     text-decoration: none;
     text-align: center;
 }
 
 nav a:hover {
-    background-color: var(--Scarlet);
+    background-color: var(--black);
     color:var(--lightolive);
 }
 
-main{
-    background-color: var(--lightteal);
-    border-style: solid;
-    border-radius: 60px;
-    border-color: var(--Scarlet);
-   
-}
 
 .categories {
     flex: 1;
@@ -76,117 +65,59 @@ main{
   }  
 
   #about-me {
-    padding: 25px;
-    height: 200px;
-    width: 55%;
+    padding: 20%;
+    height: 100px;
+    width: 100;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--lightolive);
-    border-style: solid;
-    border-radius: 60px;
-    border-color: var(--darkblue);
-    color:var(--Scarlet);
+    color:var(--black);
     line-height: normal;
-    position: relative;
-    right: 21%;
-    box-shadow: 5px 10px 5px;
+    position: center;
+    font-size: 25px;
   }
   
 
   #work {
-    padding: 25px;
-    height: 200px;
-    width: 55%;
+    padding: 20%;
+    height: 100px;
+    width: 100;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--lightolive);
-    color:var(--darkblue);
-    border-style: solid;
-    border-radius: 60px;
-    border-color: var(--darkblue);
-    margin: 5px;
-    color:var(--Scarlet);
-    position: relative;
-    right: 21%;
-    box-shadow: 5px 10px 5px;
+    color:var(--black);
+    line-height: normal;
+    position: center;
+    font-size: 25px;
   }
 
   #contact-me {
-    padding: 25px;
-    height: 200px;
-    width: 55%;
+    padding: 20%;
+    height: 100px;
+    width: 100;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--lightolive);
-    color:var(--darkblue);
-    border-style: solid;
-    border-radius: 60px;
-    border-color: var(--darkblue);
-    color:var(--Scarlet);
-    position: relative;
-    right: 21%;
-    box-shadow: 5px 10px 5px;
+    color:var(--black);
+    line-height: normal;
+    position: center;
+    font-size: 25px;
   }
+
 
   #resume {
-    padding: 25px;
-    height: 200px;
-    width: 55%;
+    padding: 20%;
+    height: 100px;
+    width: 100;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--lightolive);
-    color:var(--darkblue);
-    border-style: solid;
-    border-radius: 60px;
-    border-color: var(--darkblue);
-    color: var(--Scarlet);
-    position: relative;
-    right: 21%;
-    box-shadow: 5px 10px 5px;
+    color:var(--black);
+    line-height: normal;
+    position: center;
+    font-size: 25px;
   }
 
-#work:hover {
-    background-color: var(--Scarlet);
-    color:var(--lightolive);
-    background-image: linear-gradient(
-        rgba(39, 238, 105, 0.3) 0%,
-        rgba(11, 41, 16, 0.6) 100%
-    );
-}
-
-#contact-me:hover {
-    background-color: var(--Scarlet);
-    color:var(--lightolive);
-    background-image: linear-gradient(
-        rgba(39, 238, 105, 0.3) 0%,
-        rgba(11, 41, 16, 0.6) 100%
-    );
-}
-
-#about-me:hover {
-    background-color: var(--Scarlet);
-    color:var(--lightolive);
-    background-image: linear-gradient(
-        rgba(39, 238, 105, 0.3) 0%,
-        rgba(11, 41, 16, 0.6) 100%
-    );
-}
-
-#resume:hover {
-    background-color: var(--Scarlet);
-    color:var(--lightolive);
-    background-image: linear-gradient(
-        rgba(39, 238, 105, 0.3) 0%,
-        rgba(11, 41, 16, 0.6) 100%
-    );
-}
-
-
-.float-left {
-        float: left;
+.float-right {
+        float: right;
         margin-right: 25px;
 }
 
 footer{
     text-align: center;
-    color: var(--Scarlet);
-    background-color: var(--lightolive);
+    color: var(--black);
     border-radius: 60px;
     margin: 10px;
 }
