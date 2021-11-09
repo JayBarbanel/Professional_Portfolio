@@ -14,6 +14,8 @@ body {
 }
 
 header {
+    position: sticky;
+    top:0;
     justify-content: space-between;
     padding: 2%;
     width: 200px;
@@ -24,14 +26,10 @@ header {
     text-align: left;
     font-size: 15px;
     line-height: normal;
-    position: relative;
-    left: 2%;
 }
 
-img{
-    position: relative;
-    left:20px;
-    top:30px;
+img {
+   margin-left: 250px;
 }
 
 nav {
@@ -66,7 +64,7 @@ nav a:hover {
 
   #about-me {
     padding: 20%;
-    height: 100px;
+    height: 40px;
     width: 100;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:var(--black);
@@ -83,20 +81,19 @@ nav a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:var(--black);
     line-height: normal;
-    position: center;
     font-size: 25px;
   }
 
   #contact-me {
-    padding: 20%;
-    height: 100px;
-    width: 100;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:var(--black);
-    line-height: normal;
-    position: center;
-    font-size: 25px;
-  }
+        padding: 20%;
+        height: 100px;
+        width: 100;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:var(--black);
+        line-height: normal;
+        position: center;
+        font-size: 25px;
+      }
 
 
   #resume {
@@ -118,15 +115,27 @@ nav a:hover {
 }
 
 footer{
+    position: absolute;
+    right: 30px;
+    top:4000px;
     text-align: center;
     color: var(--black);
     border-radius: 60px;
     margin: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
+    body,
     main,
-    nav {
+    nav, 
+    header,
+    img,
+    .categories,
+    #about-me,
+    #work,
+    #contact-me,
+    #resume,
+     {
       flex-direction: column;
     }
   }
