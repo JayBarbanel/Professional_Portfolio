@@ -7,10 +7,10 @@ body {
 }
 
 :root {
-    --Scarlet: #b85042;
-    --lightolive: #e7e8d1;
-    --lightteal: #a7beae;
-    --darkblue: darkblue;
+    --Scarlet: #0f3b04;
+    --lightolive: white;
+    --lightteal: white;
+    --darkblue: rgb(0, 0, 0);
 }
 
 header {
@@ -20,7 +20,7 @@ header {
     color: var(--Scarlet);
     margin: 5px;
     border-style: solid;
-    border-radius: 1%;
+    border-radius: 60px;
     border-color: var(--Scarlet);
     text-align: center;
 }
@@ -34,8 +34,9 @@ header > img {
 
 
 img{
-    width: 300px;
+    width: 250px;
     border-radius: 40px;
+    margin: 25px;
 }
 
 nav {
@@ -61,12 +62,9 @@ nav a:hover {
 main{
     background-color: var(--lightteal);
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 60px;
     border-color: var(--Scarlet);
-    background-image: linear-gradient(
-        rgba(112, 212, 243, 0.3) 0%,
-        rgba(9, 58, 70, 0.6) 100%
-    );
+   
 }
 
 .categories {
@@ -90,6 +88,7 @@ main{
     line-height: normal;
     position: relative;
     right: 21%;
+    box-shadow: 5px 10px 5px;
   }
   
 
@@ -107,6 +106,7 @@ main{
     color:var(--Scarlet);
     position: relative;
     right: 21%;
+    box-shadow: 5px 10px 5px;
   }
 
   #contact-me {
@@ -122,6 +122,7 @@ main{
     color:var(--Scarlet);
     position: relative;
     right: 21%;
+    box-shadow: 5px 10px 5px;
   }
 
   #resume {
@@ -137,14 +138,15 @@ main{
     color: var(--Scarlet);
     position: relative;
     right: 21%;
+    box-shadow: 5px 10px 5px;
   }
 
 #work:hover {
     background-color: var(--Scarlet);
     color:var(--lightolive);
     background-image: linear-gradient(
-        rgba(243, 31, 31, 0.3) 0%,
-        rgba(29, 4, 4, 0.6) 100%
+        rgba(39, 238, 105, 0.3) 0%,
+        rgba(11, 41, 16, 0.6) 100%
     );
 }
 
@@ -152,8 +154,8 @@ main{
     background-color: var(--Scarlet);
     color:var(--lightolive);
     background-image: linear-gradient(
-        rgba(243, 31, 31, 0.3) 0%,
-        rgba(29, 4, 4, 0.6) 100%
+        rgba(39, 238, 105, 0.3) 0%,
+        rgba(11, 41, 16, 0.6) 100%
     );
 }
 
@@ -161,8 +163,8 @@ main{
     background-color: var(--Scarlet);
     color:var(--lightolive);
     background-image: linear-gradient(
-        rgba(243, 31, 31, 0.3) 0%,
-        rgba(29, 4, 4, 0.6) 100%
+        rgba(39, 238, 105, 0.3) 0%,
+        rgba(11, 41, 16, 0.6) 100%
     );
 }
 
@@ -170,8 +172,8 @@ main{
     background-color: var(--Scarlet);
     color:var(--lightolive);
     background-image: linear-gradient(
-        rgba(243, 31, 31, 0.3) 0%,
-        rgba(29, 4, 4, 0.6) 100%
+        rgba(39, 238, 105, 0.3) 0%,
+        rgba(11, 41, 16, 0.6) 100%
     );
 }
 
@@ -184,9 +186,9 @@ main{
 footer{
     text-align: center;
     color: var(--Scarlet);
-    border: solid;
-    border-color: var(--darkblue);
     background-color: var(--lightolive);
+    border-radius: 60px;
+    margin: 10px;
 }
 
 @media screen and (max-width: 768px) {
