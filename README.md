@@ -24,3 +24,4 @@ Link to the repository (which i tried to update a lot! ) : https://github.com/Ja
 
 # Screenshot: 
 
+![Screen Shot 2021-11-10 at 3 17 48 PM](https://user-images.githubusercontent.com/89555843/141210532-84c9d5da-21b2-4002-83cd-462d2e5e7332.png)
