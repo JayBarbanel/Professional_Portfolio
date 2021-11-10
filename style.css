@@ -117,7 +117,6 @@ nav a:hover {
       
 }
 
-
   .cell-1 {
     background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project1.jpg);
   }
@@ -127,11 +126,6 @@ nav a:hover {
   .cell-3 {
     background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project3.jpg);
   }
-
-.container:hover {
-  transform: scale(1.5); /* (150% zoom)*/
-}
-
 
 
   footer{
