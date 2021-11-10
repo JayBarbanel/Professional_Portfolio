@@ -8,10 +8,9 @@ body {
 
 :root {
     --black: #000000;
-    --lightolive: white;
-    --lightteal: white;
-    --darkblue: rgb(255, 255, 255);
+    --white: white;
 }
+ 
 
 header {
     position: sticky;
@@ -26,10 +25,6 @@ header {
     text-align: left;
     font-size: 15px;
     line-height: normal;
-}
-
-img {
-   margin-left: 250px;
 }
 
 nav {
@@ -51,7 +46,7 @@ nav a {
 
 nav a:hover {
     background-color: var(--black);
-    color:var(--lightolive);
+    color:var(--white);
 }
 
 
@@ -68,33 +63,78 @@ nav a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:var(--black);
     line-height: normal;
-    position: center;
-    font-size: 25px;
     font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
   }
 
-.float-right {
-        float: right;
-        margin-right: 20px;
+#work{
+    font-size: 25px;
 
 }
 
-footer{
-    position: absolute;
-    right: 30px;
-    top:4000px;
+#about-me{
+    font-size: 25px;
+
+}
+
+#contact-me{
+    font-size: 25px;
+
+}
+
+#resume{
+    font-size: 25px;
+}
+
+/* the following grid was based off of : https://www.developerdrive.com/how-to-create-a-css-grid-step-by-step/ */
+
+.container {
+    height: 10vh;
+    margin: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px; 
+      }
+
+  .cell {
+    color: white;
+    font-size: 3rem;
     text-align: center;
-    color: var(--black);
-    border-radius: 60px;
-    margin: 10px;
+    padding: 4rem;
+  }
+  .cell-1 {
+    background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project1.jpg);
+  }
+  .cell-2 {
+    background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project2.jpg);
+  }
+  .cell-3 {
+    background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project3.jpg);
+  }
+
+  .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
 }
 
-@media screen and (max-width: 576px) {
-    body, 
-    main,
-    .base-style
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }
+
+
+  footer{
+      text-align: right;
+  }
