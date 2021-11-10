@@ -46,7 +46,7 @@ nav {
     right: 2%;
     }
 
-    nav a {
+nav a {
       color: var(--Scarlet);
       padding: 25px 25px;
       text-decoration: none;
