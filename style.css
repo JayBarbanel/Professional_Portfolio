@@ -117,6 +117,7 @@ nav a:hover {
     grid-gap: 10px 10px; 
       }
 
+
   .cell {
     color: white;
     font-size: 3rem;
@@ -133,40 +134,21 @@ nav a:hover {
     background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project3.jpg);
   }
 
-  .hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.1);
-}
-
 
   footer{
       text-align: right;
   }
-
-  @media screen and (max-width: 992px) {
-    .base-style{
-        width: 100%;
-    }
-    .body {
-        width: 100%;
-    }
+ 
+  @media screen and (max-width : 768px)
+  { nav a:hover {
+    background-color: green;
+    color:var(--white);
 }
-
-  @media screen and (max-width: 768px) {
-    .base-style {
-    width: 50%;
-    }
+.container {
+    grid-template-columns: 1fr;
+    height:700px;
 }
-   
+body{
+    background: none !important;
+}
+  }
