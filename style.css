@@ -100,7 +100,7 @@ nav a:hover {
     text-align: center;
     transition: all .2s ease-in-out; 
 }
-.base-style:hover { transform: scale(1.5); }
+.base-style2:hover { transform: scale(1.5); }
 
 #work{
     font-size: 25px;
