@@ -117,6 +117,13 @@ nav a:hover {
       
 }
 
+.cell {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+
   .cell-1 {
     background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project1.jpg);
   }
