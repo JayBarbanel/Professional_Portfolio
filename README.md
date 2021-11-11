@@ -9,6 +9,7 @@ I created a header which follows you as you scroll down the page.
 Additionally, the nav bar on the top right corner links to its respective areas and also includes a direct link to one of my social media platforms that is most used.
 The about me section has a small description of my backfround and goals along with a photo that was sized and designed in PhotoShop. 
 Next, you will scroll down to my Wok section, where you will find three placeholder projects.  Each image has been modified and sized in PS for the site. 
+When hovering over an image, the image will grow, depending on which one you are hovered over.
 Scroll down more and you reach the contact me section which includes an icon of a paper airplne that signifies email, which is clickable and brings up the useres 
 email port.  My email is automatically placed in the 'Sent-to' section of said email.  
 
