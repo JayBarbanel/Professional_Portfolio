@@ -4,22 +4,21 @@
     flex-direction: column;
     line-height: 1.3px;
     background-color: var(--lightolive);
-
 }
 
 :root {
     --black: #000000;
     --white: white;
 }
- 
-main{
+
+main {
     width: 100%;
     display: block;
 }
 
 header {
     position: sticky;
-    top:0;
+    top: 0;
     justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 2%;
@@ -34,17 +33,16 @@ header {
     font-size: 15px;
     line-height: normal;
     float: left;
-  }
-  
+}
+
 nav {
     justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 2%;
-    text-align:center;
-    color:var(--black);
+    text-align: center;
+    color: var(--black);
     position: absolute;
     right: 2%;
-    
 }
 
 nav a {
@@ -55,22 +53,22 @@ nav a {
 }
 
 nav a {
-      color: var(--Scarlet);
-      padding: 25px 25px;
-      text-decoration: none;
-      text-align: center;
-  }
+    color: var(--Scarlet);
+    padding: 25px 25px;
+    text-decoration: none;
+    text-align: center;
+}
 
 nav a:hover {
     background-color: var(--black);
-    color:var(--white);
+    color: var(--white);
 }
 
 .clear::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 .categories {
     flex: 1;
@@ -78,12 +76,12 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }  
+}
 
-  .base-style {
+.base-style {
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:var(--black);
+    color: var(--black);
     line-height: normal;
     font-size: 25px;
     display: flex;
@@ -92,12 +90,12 @@ nav a:hover {
     align-items: center;
     flex-direction: column;
     text-align: center;
-  }
+}
 
-  .base-style2 {
+.base-style2 {
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:var(--black);
+    color: var(--black);
     line-height: normal;
     font-size: 25px;
     display: flex;
@@ -106,28 +104,29 @@ nav a:hover {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    transition: all .2s ease-in-out; 
-}
-.base-style2:hover { transform: scale(1.5); }
-
-#work{
-    font-size: 25px;
-
+    transition: all .2s ease-in-out;
 }
 
-#about-me{
-    font-size: 25px;
-
+.base-style2:hover {
+    transform: scale(1.5);
 }
 
-#contact-me{
-    font-size: 25px;
-
-}
-
-#resume{
+#work {
     font-size: 25px;
 }
+
+#about-me {
+    font-size: 25px;
+}
+
+#contact-me {
+    font-size: 25px;
+}
+
+#resume {
+    font-size: 25px;
+}
+
 
 /* the following grid was based off of : https://www.developerdrive.com/how-to-create-a-css-grid-step-by-step/ */
 
@@ -137,71 +136,70 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px 10px; 
-      }
-
-.cell {
-  color: white;
-  font-size: 3rem;
-  text-align: center;
-  padding: 4rem;
-  transition: all .2s ease-in-out; 
+    grid-gap: 10px 10px;
 }
 
-.cell:hover { transform: scale(1.5); }
-
-  .cell {
+.cell {
     color: white;
     font-size: 3rem;
     text-align: center;
     padding: 4rem;
-  }
-  .cell-1 {
+    transition: all .2s ease-in-out;
+}
+
+.cell:hover {
+    transform: scale(1.5);
+}
+
+.cell {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.cell-1 {
     background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project1.jpg);
-  }
+}
 
-  .cell-2 {
+.cell-2 {
     background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project2.jpg);
-  }
-  .cell-3 {
+}
+
+.cell-3 {
     background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project3.jpg);
-  }
+}
 
+footer {
+    text-align: right;
+}
 
-  footer{
-      text-align: right;
-  }
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        height: 700px;
+    }
+    body {
+        background: none !important;
+    }
+    header {
+        color: black;
+        font-size: 7px;
+        border: none;
+    }
+}
 
-  @media screen and (max-width : 768px)
-  { 
-.container {
-    grid-template-columns: 1fr;
-    height:700px;
+@media screen and (max-width: 576px) {
+    .container {
+        grid-template-columns: 1fr;
+        height: 700px;
+    }
+    body {
+        background: none !important;
+    }
+    header {
+        color: black;
+        font-size: 7px;
+        border: none;
+    }
 }
-body{
-    background: none !important;
-}
-header{
-    color: black;
-    font-size: 7px;
-    border:none;
-}
-  }
-
-
- 
-  @media screen and (max-width : 576px)
-  { 
-.container {
-    grid-template-columns: 1fr;
-    height:700px;
-}
-body{
-    background: none !important;
-}
-header{
-    color: black;
-    font-size: 7px;
-    border:none;
-}
-  }
