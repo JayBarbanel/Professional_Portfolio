@@ -51,16 +51,6 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
-<<<<<<< HEAD
-
-nav a {
-    color: var(--Scarlet);
-    padding: 25px 25px;
-    text-decoration: none;
-    text-align: center;
-}
-=======
->>>>>>> 195c1ab (most recent)
 
 nav a:hover {
     background-color: var(--black);
@@ -130,13 +120,10 @@ nav a:hover {
     font-size: 25px;
 }
 
-<<<<<<< HEAD
-=======
 .img {
     width: 50%;
 }
 
->>>>>>> 195c1ab (most recent)
 
 /* the following grid was based off of : https://www.developerdrive.com/how-to-create-a-css-grid-step-by-step/ */
 
@@ -147,10 +134,7 @@ nav a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px 10px;
-<<<<<<< HEAD
-=======
     width: 90%;
->>>>>>> 195c1ab (most recent)
 }
 
 .cell {
@@ -165,22 +149,14 @@ nav a:hover {
     transform: scale(1.5);
 }
 
-<<<<<<< HEAD
-.cell {
-    color: white;
-    font-size: 3rem;
-    text-align: center;
-    padding: 4rem;
-}
-
-=======
->>>>>>> 195c1ab (most recent)
 .cell-1 {
-    background: url(./Images/Project1_MDB.jpg);
+    background: url(./Images/MDB2.jpg);
+    color: rgb(0, 0, 0);
 }
 
 .cell-2 {
-    background: url(../UCLA_HW2_AdvCSS_Portfolio/Images/project2.jpg);
+    background: url(./Images/weatherapp2.jpg);
+    color: rgb(0, 0, 0);
 }
 
 .cell-3 {
@@ -195,11 +171,8 @@ footer {
     .container {
         grid-template-columns: 1fr;
         height: 700px;
-<<<<<<< HEAD
-=======
         padding: 0;
         margin: 0;
->>>>>>> 195c1ab (most recent)
     }
     body {
         background: none !important;
@@ -209,12 +182,9 @@ footer {
         font-size: 7px;
         border: none;
     }
-<<<<<<< HEAD
-=======
     nav {
         display: none;
     }
->>>>>>> 195c1ab (most recent)
 }
 
 @media screen and (max-width: 576px) {
