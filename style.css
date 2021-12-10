@@ -1,3 +1,7 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
 body {
     display: flex;
     flex-flow: row wrap;
@@ -22,7 +26,7 @@ header {
     justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 2%;
-    width: 200px;
+    width: 221px;
     color: var(--white);
     margin: 10px;
     border-style: solid;
@@ -110,6 +114,7 @@ nav a:hover {
 
 #about-me {
     font-size: 25px;
+    font-family: 'DM Serif Display', serif;
 }
 
 #contact-me {
