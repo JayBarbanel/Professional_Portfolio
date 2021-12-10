@@ -121,10 +121,6 @@ nav a:hover {
     font-size: 25px;
 }
 
-#resume {
-    font-size: 25px;
-}
-
 .img {
     width: 50%;
 }
@@ -169,7 +165,12 @@ nav a:hover {
 }
 
 #resumeBtn {
-    font-size: small;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+#resumeBtn:hover {
+    transform: scale(1.5);
 }
 
 footer {
