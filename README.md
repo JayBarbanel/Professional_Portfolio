@@ -1,4 +1,4 @@
-# Project Title: Musician Database
+# Project Title: My Portfolio
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/)
 
         
@@ -10,26 +10,17 @@
 * [License](#License)
 
 ## Description 
-Our project is for music lovers all over the world.  When you deploy our site, you are brought to a main page where the user can enter a musican or music group, click search, and a list of all of their upcoming shows, from around the world, pop up.  You can check out the venu details, click a link to buy tickets, and see an image of the band's logo or a photo of them. 
+This is my proftlio that features a few of the projects that I have been recently working on. You can also view my LinkedIn, resume & contact information.
 ## Installation Instructions
-The program can be installed by cloing the repo and opening it in VSCode. 
+Simply clone the repo, throw it in VScode and open in default browser, or click the deployment link.
 ## Usage
-Once the program is in VSCode, simply run node index.js and the application will deploy.  You can also click the link below to go directly to the git page.
+Click the link, click the projects to view them individually.  Click the navbar buttons to view sections. 
 ## How to contribute
 n/a
 ## To Test
-We ran tests as we built the application using the terminal in VSCode. 
+n/a
 ## License
 MIT
 ## Questions
-If you have any questions, feel free to reach me at github.com/jaybarbanel or email me at 
+If you have any questions, feel free to reach me at GitHub.com/JayBarbanel or email me at 
 jbarbanel531@gmail.com
-
-# Contributors 
-[Jay Barbanel](https://github.com/JayBarbanel)
-[Elmira Tashvighi](https://github.com/Elmiratash)
-[Sebastian Lample](https://github.com/AstrosTech)
-
-## Screen Shot 
-
-![Screen Shot 2021-11-10 at 3 17 48 PM](https://user-images.githubusercontent.com/89555843/141210532-84c9d5da-21b2-4002-83cd-462d2e5e7332.png)
