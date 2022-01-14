@@ -130,6 +130,10 @@ nav a:hover {
     width: 50%;
 }
 
+#resume {
+    font-size: 25px;
+}
+
 
 /* the following grid was based off of : https://www.developerdrive.com/how-to-create-a-css-grid-step-by-step/ */
 
@@ -172,15 +176,6 @@ nav a:hover {
 .cell-3 {
     background: url(../UCLA_HW2_AdvCSS_Portfolio_Final/Images/teamgen.jpg);
     color: rgb(0, 0, 0);
-}
-
-#resumeBtn {
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-}
-
-#resumeBtn:hover {
-    transform: scale(1.5);
 }
 
 footer {
