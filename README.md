@@ -24,3 +24,7 @@ MIT
 ## Questions
 If you have any questions, feel free to reach me at GitHub.com/JayBarbanel or email me at 
 jbarbanel531@gmail.com
+
+## Screenshot 
+
+![Screen Shot 2022-01-13 at 5 49 26 PM](https://user-images.githubusercontent.com/89555843/149437584-c234ade8-bcaf-4128-b14e-1405005365c5.png)
