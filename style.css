@@ -37,6 +37,7 @@ header {
     font-size: 15px;
     line-height: normal;
     float: left;
+    box-shadow: 10px 10px 5px rgba(21, 21, 21, 0.865);
 }
 
 nav {
@@ -144,6 +145,7 @@ nav a:hover {
     text-align: center;
     padding: 4rem;
     transition: all .2s ease-in-out;
+    box-shadow: 10px 10px 5px rgba(21, 21, 21, 0.865);
 }
 
 .cell:hover {
