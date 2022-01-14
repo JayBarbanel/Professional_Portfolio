@@ -1,28 +1,35 @@
-# UCLA_HW2_AdvCSS_Portfolio
-The purpose of this assignment was to begin creative a porfolio for our work.  
-The website needed feture different sections, a nav bar that linked with its respective section, a photo avatar and that it would resize for different sized screens. 
+# Project Title: Musician Database
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/)
 
-# What I built:
-I started off with a totally different design and color scheme, which I worked on a few times to get to where I am now. 
-My website features a background image that spands the entire length and purspoly spans a certain wideth as to not interfere with the text or images. 
-I created a header which follows you as you scroll down the page.  
-Additionally, the nav bar on the top right corner links to its respective areas and also includes a direct link to one of my social media platforms that is most used.
-The about me section has a small description of my backfround and goals along with a photo that was sized and designed in PhotoShop. 
-Next, you will scroll down to my Wok section, where you will find three placeholder projects.  Each image has been modified and sized in PS for the site. 
-When hovering over an image, the image will grow, depending on which one you are hovered over.
-Scroll down more and you reach the contact me section which includes an icon of a paper airplne that signifies email, which is clickable and brings up the useres 
-email port.  My email is automatically placed in the 'Sent-to' section of said email.  
+        
+## Table of contents
+* [Description](#description)
+* [Installation Instructions](#Installation-Instructions)
+* [How to Contribute](#How-to-Contribute)
+* [To Test](#To-Test)
+* [License](#License)
 
-Lastly, you reach the resume section where you are told that my resume is available upon request.  Which hopefully is a call to action to press the email button above. 
+## Description 
+Our project is for music lovers all over the world.  When you deploy our site, you are brought to a main page where the user can enter a musican or music group, click search, and a list of all of their upcoming shows, from around the world, pop up.  You can check out the venu details, click a link to buy tickets, and see an image of the band's logo or a photo of them. 
+## Installation Instructions
+The program can be installed by cloing the repo and opening it in VSCode. 
+## Usage
+Once the program is in VSCode, simply run node index.js and the application will deploy.  You can also click the link below to go directly to the git page.
+## How to contribute
+n/a
+## To Test
+We ran tests as we built the application using the terminal in VSCode. 
+## License
+MIT
+## Questions
+If you have any questions, feel free to reach me at github.com/jaybarbanel or email me at 
+jbarbanel531@gmail.com
 
+# Contributors 
+[Jay Barbanel](https://github.com/JayBarbanel)
+[Elmira Tashvighi](https://github.com/Elmiratash)
+[Sebastian Lample](https://github.com/AstrosTech)
 
-# Overall 
-Overall, I liked this project a lot.  I had fun being creative and although it took me a long time to do, there felt like there was a lot of growth in my undertanding for HTML and CSS.  I have a lot to work on to get this to where I truly would like it to be, but I'm pretty happy with it so far. 
-
-# Links 
-Here is a link to the site from GitHubPages : https://jaybarbanel.github.io/UCLA_HW2_AdvCSS_Portfolio/
-Link to the repository (which i tried to update a lot! ) : https://github.com/JayBarbanel/UCLA_HW2_AdvCSS_Portfolio
-
-# Screenshot: 
+## Screen Shot 
 
 ![Screen Shot 2021-11-10 at 3 17 48 PM](https://user-images.githubusercontent.com/89555843/141210532-84c9d5da-21b2-4002-83cd-462d2e5e7332.png)
